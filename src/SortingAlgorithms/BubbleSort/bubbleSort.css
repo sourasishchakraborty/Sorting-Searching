@@ -1,0 +1,31 @@
+.array-container {
+	display: inline-block;
+	background: rgb(255, 198, 92);
+	border: 1px solid white;
+    position: relative;
+    margin-top: 25px;
+    margin-bottom: 40px;
+    height: auto;
+    
+}
+.array-bar {
+	/*display: inline-block;*/
+	position: relative;
+	background: rgb(255, 198, 92);
+}
+.numbers {
+	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+	font-weight: bold;
+	font-style: oblique;
+	color: white;
+}
+
+.boot-background {
+	background-color: #ffffff;
+}
+.boot-color {
+	color: #1a1d20;
+}
+.boot-hover:hover {
+	background-color: #1a1d20;
+}

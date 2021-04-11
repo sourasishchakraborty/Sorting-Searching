@@ -1,0 +1,54 @@
+.b-array-bar {
+    background-color: #00FFFF;
+    display: inline-block;
+    margin: 8px;
+    margin-top: 30px;
+    color: rgb(17, 17, 16);
+    width: 80px;
+    text-align: center;
+    padding: 15px;
+    border-radius: 3px;
+    font-size: 20px;
+}
+
+.b-array-bar span{
+    padding: 3px;
+    background-color: rgb(236, 58, 58);
+    color: cornsilk;
+    margin-top: 10px;
+    border-radius: 3px;
+    display: inline-block;
+    width: 30px;
+    font-size: 16px;
+}
+
+.growFind {
+    transition:  ease-in 500ms;
+}
+@keyframes growFind {
+    0% {
+        transform: scale3d(1,1,1);
+    }
+    100% {
+        transform: scale3d(1.1,1.1,1.1);
+    }
+}
+
+.highlight {
+    transition: ease-in 300ms;
+    transform: scale3d(1.25,1.25,1.25);
+    margin: 1.5rem;
+}
+
+.found {
+    padding: 5px;
+    margin-top: 10px;
+    font-size: 25px;
+    color: #228B22;
+}
+.not-found {
+    padding: 5px;
+    margin-top: 10px;
+    font-size: 25px;
+    color: 	#FF0000;
+}
